@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity(), androidx.appcompat.widget.SearchView.O
         searchBreed.setOnQueryTextListener(this)
     }
 
+    
 
     override fun onQueryTextSubmit(query: String): Boolean {
         searchByName(query.toLowerCase())
